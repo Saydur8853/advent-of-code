@@ -1,12 +1,6 @@
+from utils.files import read_file
 
-# from utils.files import read_file
 
-def read_file(file: str) -> str:
-    content = None
-    with open(file, 'r') as buf:
-        content = buf.read()
-    return content
-    
 def part_1(input: str) -> int:
     content = read_file(input)
     floor = 0

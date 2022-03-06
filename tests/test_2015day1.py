@@ -12,4 +12,4 @@ class TestDay1(unittest.TestCase):
         filename = "year2015/inputs/day1.txt"
         result = part_1(filename)
         # print(result)
-        self.assertEqual(1, 1, msg=f"{result}")
+        self.assertEqual(1, 1, msg=f"{result}
