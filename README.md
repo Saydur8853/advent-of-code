@@ -1,3 +1,3 @@
 # advent-of-code
 
-## Run: pdm run python year2015/solutions/day1.py
+## Run: pdm run test tests.test_2015day1.TestDay1
